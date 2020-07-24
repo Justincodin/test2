@@ -3,9 +3,9 @@ import pytz
 
 tday = datetime.date.today()
 print(tday) # prints the current date in YYYY-MM-DD format
-# print(tday.weekday()) # prints number between 0 and 6 with Monday being 0
-# tdelta = datetime.timedelta(days=7)
-# # print(tday + tdelta) # prints the date 7 days in the future 
+print(tday.weekday()) # prints number between 0 and 6 with Monday being 0
+tdelta = datetime.timedelta(days=7)
+print(tday + tdelta) # prints the date 7 days in the future 
 # bday = datetime.date(2021, 7, 2)
 # # print(bday) # prints my bday in 2021
 # till_bday = abs(tday - bday) # days until my bday in 2021
