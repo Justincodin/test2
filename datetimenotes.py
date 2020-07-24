@@ -59,8 +59,8 @@ print(tday + tdelta) # prints the date 7 days in the future
 # dt = datetime.datetime.strptime(dt_str, '%A %B %d, %Y at %I:%M%p')
 # print(dt)
 
-# for tz in pytz.all_timezones:
-#     print(tz) # prints all timezones available
+for tz in pytz.all_timezones:
+    print(tz) # prints all timezones available
 
 
 
